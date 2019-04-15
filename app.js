@@ -20,7 +20,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 // 定义icon图标，参数为图标的路径。如果不指明，则用默认的express图标
-//app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 
 //加载日志中间件，定义日志和输出级别
 app.use(logger('dev'));
@@ -35,7 +35,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());  
 
 //上传文件，dest：目的地，array()内是你要上传的file类型input标签的name名称
-//app.use(multer({dest: './tmp/'}).array())
+//app.use(multer({dest: './tmp/'}).array('file'))
 
 //静态文件目录设置,设置public文件夹为存放静态文件的目录
 app.use(express.static(path.join(__dirname, 'public')));
