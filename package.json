@@ -4,7 +4,8 @@
   "description": "web framework",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "web": "node bin/web.js"
   },
   "bin": {
     "web": "bin/web.js"
