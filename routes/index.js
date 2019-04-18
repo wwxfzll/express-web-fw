@@ -2,6 +2,7 @@
 // 这样，当访问主页时，就会调用res.render('index',{title:'Express'});渲染views/index.ejs模板并显示到浏览器中
 var express = require('express');
 var router = express.Router();
+//let db = require('../model/db.js')
 
 /* GET home page. */
 router.get('/', function(req, res, next) {

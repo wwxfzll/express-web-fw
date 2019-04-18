@@ -3,7 +3,7 @@
  **/
 const mssql = require("mssql");
 const util = require("util");
-const conf = require("./config.js");
+const conf = require("../config.js");
 
 let restoreDefaults = function () {
     conf;
