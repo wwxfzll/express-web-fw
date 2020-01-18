@@ -1034,8 +1034,8 @@ jws@3.x.x:
     safe-buffer "^5.0.1"
 
 lodash@^4.17.11, lodash@^4.17.4:
-  version "4.17.11"
-  resolved "http://192.168.118.166:4873/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
+  version "4.17.15"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
 
 loose-envify@^1.0.0:
   version "1.4.0"
@@ -1078,6 +1078,10 @@ minimatch@^3.0.4:
 minimist@0.0.8:
   version "0.0.8"
   resolved "http://192.168.118.166:4873/minimist/-/minimist-0.0.8.tgz#857fcabfc3397d2625b8228262e86aa7a011b05d"
+
+minimist@~0.0.1:
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-0.0.10.tgz#de3f98543dbf96082be48ad1a0c7cda836301dcf"
 
 mkdirp@^0.5.1:
   version "0.5.1"
@@ -1132,6 +1136,13 @@ negotiator@0.6.1:
   version "0.6.1"
   resolved "http://192.168.118.166:4873/negotiator/-/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
 
+node-windows@^0.1.14:
+  version "0.1.14"
+  resolved "https://registry.yarnpkg.com/node-windows/-/node-windows-0.1.14.tgz#31bb0503da3bc637f2bfaa8b266640a2e92d891f"
+  dependencies:
+    optimist "~0.6.0"
+    xml "0.0.12"
+
 number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "http://192.168.118.166:4873/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
@@ -1153,6 +1164,13 @@ on-finished@^2.3.0, on-finished@~2.3.0:
 on-headers@~1.0.1:
   version "1.0.2"
   resolved "http://192.168.118.166:4873/on-headers/-/on-headers-1.0.2.tgz#772b0ae6aaa525c399e489adfad90c403eb3c28f"
+
+optimist@~0.6.0:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/optimist/-/optimist-0.6.1.tgz#da3ea74686fa21a19a111c326e90eb15a0196686"
+  dependencies:
+    minimist "~0.0.1"
+    wordwrap "~0.0.2"
 
 os-homedir@^1.0.0:
   version "1.0.2"
@@ -1516,6 +1534,14 @@ verror@1.10.0:
     assert-plus "^1.0.0"
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
+
+wordwrap@~0.0.2:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/wordwrap/-/wordwrap-0.0.3.tgz#a3d5da6cd5c0bc0008d37234bbaf1bed63059107"
+
+xml@0.0.12:
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/xml/-/xml-0.0.12.tgz#f08b347109912be00285785f46f15ad8e50a5f67"
 
 "xmldom@>= 0.1.x":
   version "0.1.27"
